@@ -27,8 +27,8 @@ clear:both;
 /* index style */
 /*header*/
 .head{position:fixed;width:100%;height:0.691rem;top:0;right:0;box-shadow:0 4px 4px rgba(9,2,4,.55);line-height:0.791rem;z-index:99;-webkit-transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-ms-transition:all 0.3s ease-in-out 0s;transition:all 0.3s ease-in-out 0s;}
-.logo{display:inline-block;width:62.8125%;height:auto; margin-left:0.1rem; margin-top:0.1rem}
-.logo img{height:0.5rem}
+.logo{display:inline-block;width:62.8125%;height:auto; margin-left:0.1rem;}
+.logo img{width: 1.7rem;}
 .top-nav{position:absolute;right:1.09375%;top:100%;width:14.0625%;}
 .class-btn{position:absolute;right:16%;top:0%;width:14.0625%;font-size:0.24rem;line-height:0.82rem;color:#fff;text-align:center;overflow:hidden;}
 .top-home{position:absolute;left:1.09375%;top:0;width:14.0625%;font-size:0.4rem;line-height:0.82rem;color:#fff;text-align:center;overflow:hidden;}
@@ -174,7 +174,14 @@ body{position:relative;width:100%;background:#fff;height:100%;}
 /* for white */
 .white-bg{background:#fff;}
 /*page*/
-.list_page{margin-top:5px;padding:5px;font-size:10px;text-align:center;clear:both;display: block;}
+.list_page{
+	margin-top:5px;
+	padding:25px 5px;
+	font-size:10px;
+	text-align:center;
+	clear:both;
+	display: block;
+}
 .list_page a{height:30px;line-height:30px;display:inline-block;margin-right:2px;padding:0px 10px;border:1px solid #E5E5E5;color:#787878; background:#FFF}
 .list_page a.current{height:30px;background:#09F;color:#FFF; padding:0px 10px;border:1px solid #09F; font-size:12px}
 

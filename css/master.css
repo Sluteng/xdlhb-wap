@@ -645,8 +645,8 @@ font-w/eight: bold;
 
 /*新闻图片*/
 .about .enlarge{
-    width: 270px;
-    height: 330px;
+    width: 165px;
+    height: 230px;
     border: 1px #ffffff solid;
     float: left;
     margin-left: 0.1rem;
