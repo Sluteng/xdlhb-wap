@@ -11,6 +11,12 @@ a{text-decoration:none;outline:0px;}
 fieldset, img{border:0;}
 img{display:block;max-width:100%}
 input[type="text"], input[type="password"], input[type="submit"], input[type="reset"], input[type="button"], textarea{-webkit-appearance:none;}
+/*清浮动*/
+.clearfix::after { 
+content:' ';
+display:block;
+clear:both;
+}
 .clear{clear:both;width:100%;}
 .c{clear:both;width:100%;}
 /* common */
