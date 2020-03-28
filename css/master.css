@@ -804,6 +804,13 @@ font-w/eight: bold;
  height:0.4rem;
  outline:none;
 }
+.from .table_3 textarea{
+width:4.2rem; 
+height:2rem; 
+background:#eee;
+border:1px solid #ddd;
+outline:none;
+}
 .from .tishi{
  float:left;
  width: 295px;
