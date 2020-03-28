@@ -753,8 +753,10 @@ font-w/eight: bold;
 	margin: 20px 15px;
 }
 .conact .conact-img{
-	height: 280px;
-	width: 330px;
+ width: 4.5rem;
+ height: 4rem;
+ display: block;
+ margin: 0 auto;
 }
 .conact h2{
 	text-align: center;
