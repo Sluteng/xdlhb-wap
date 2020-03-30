@@ -367,15 +367,17 @@ border-bottom: 1px solid #fff; */
 	-ms-text-overflow: ellipsis;
 	text-overflow: ellipsis;
 }
-.about_p {
+
+.about_p{
      height: 3rem;
      overflow-x: hidden;
      overflow-y: scroll;
      line-height: 30px;
  }
- .about_p::-webkit-scrollbar {
+ .about_p::-webkit-scrollbar{
      display: none;
  }
+
 .jiameng_tel {
 	text-align: center;
 	padding: 1.5% 0;
